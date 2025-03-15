@@ -2,7 +2,6 @@ import logging
 import asyncio
 import io
 from datetime import datetime, timedelta, timezone
-from PIL import Image
 import imagehash
 from telegram import ChatPermissions, Update
 from telegram.ext import (
