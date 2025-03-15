@@ -2,7 +2,6 @@ import logging
 import asyncio
 import io
 from datetime import datetime, timedelta, timezone
-import imagehash
 from telegram import ChatPermissions, Update
 from telegram.ext import (
     Application, MessageHandler, filters, CallbackContext, CommandHandler
